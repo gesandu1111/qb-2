@@ -57,42 +57,92 @@ cmd(
         }
       }
 
-      let madeMenu = `👋 *Hello  ${pushname}*
+      let madeMenu = `
+╭───────────────╮
+
+│ 🦅 *GESA MD BOT* 🦅
+
+╰───────────────╯
+
+👋 *Hello, ${pushname}*
 
 
-| *MAIN COMMANDS* |
-    ▫️.alive
-    ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
-| *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
-| *GROUP COMMANDS* |
+
+╭───┈ *MAIN MENU* ┈───╮
+
+│ ▫️ .alive
+
+│ ▫️ .menu
+
+│ ▫️ .ai <text>
+
+│ ▫️ .system
+
+│ ▫️ .owner
+
+╰─────────────────╯
+
+
+
+╭──┈ *DOWNLOADS* ┈───╮
+
+│ ▫️ .song <text>
+
+│ ▫️ .video <text>
+
+│ ▫️ .fb <link>
+
+╰─────────────────╯
+
+
+
+╭───┈ *GROUP* ┈───╮
+
 ${menu.group}
-| *OWNER COMMANDS* |
-    ▫️.restart
-    ▫️.update
-| *CONVERT COMMANDS* |
-    ▫️.sticker <reply img>
-    ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
-| *SEARCH COMMANDS* |
+
+╰─────────────────╯
+
+
+
+╭───┈ *OWNER* ┈───╮
+
+│ ▫️ .restart
+
+│ ▫️ .update
+
+╰─────────────────╯
+
+
+
+╭──┈ *CONVERT* ┈───╮
+
+│ ▫️ .sticker <reply>
+
+│ ▫️ .img <reply>
+
+│ ▫️ .tr <lang> <text>
+
+│ ▫️ .tts <text>
+
+╰─────────────────╯
+
+
+
+╭───┈ *SEARCH* ┈───╮
+
 ${menu.search}
 
+╰─────────────────╯
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
 
-> ROBIN MENU MSG
+
+> 🥶 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐌.𝐑.𝐠𝐞𝐬𝐚 🥶
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://github.com/gesandu1111/2026-2/blob/main/WhatsApp%20Image%202025-12-31%20at%2010.33.02.jpeg?raw=true",
           },
           caption: madeMenu,
         },
